@@ -1,0 +1,9 @@
+name: Mitesh Shah
+bio: |
+  Hey, I am the writer and the maintainer of this blog.
+  Right now I work in Microsoft as a Software Engineer and love to read about Data Science in my free time.
+avatar: ./avatars/MiteshShah.jpg
+social:
+  - url: https://github.com/mitesh1612
+  - url: https://linkedin.com/in/mitesh-shah16
+featured: true

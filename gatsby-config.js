@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `http://mitesh1612.github.io/blog`,
     description: `This is my blog developed using Gatsby.Js and using the Novella Theme`,
     hero: {
-      heading: `Welcome to my personal blog.`,
+      heading: `Mitesh Shah's Personal Blog`,
       maxWidth: 652,
     },
     social: [
