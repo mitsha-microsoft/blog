@@ -1,34 +1,30 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Mitesh Shah's Blog`,
+    name: `Mitesh Shah's Blog`,
+    siteUrl: `http://mitesh1612.github.io/blog`,
+    description: `This is my blog developed using Gatsby.Js and using the Novella Theme`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to my personal blog.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/mitesh_1612`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/mitesh1612`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/mitesh1612`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
-      },
+        url: `https://www.linkedin.com/in/mitesh-shah16`,
+      }
     ],
   },
   plugins: [
