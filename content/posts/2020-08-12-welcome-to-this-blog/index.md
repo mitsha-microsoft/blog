@@ -1,5 +1,5 @@
 ---
-title: My first post using Novela by Narative
+title: Welcome to this blog
 author: Mitesh Shah
 date: 2020-08-12
 hero: ./images/hero.jpg
