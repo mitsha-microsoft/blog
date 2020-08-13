@@ -12,7 +12,7 @@ Also, although I do prefer Python, this post is in C#, since that was the langua
 
 So here is the problem. Say we have two C# Classes
 
-```csharp live
+```csharp
 public class BaseClass
 {
     public string SomeProperties { get; set; }
@@ -26,7 +26,7 @@ public class DerivedClass : BaseClass
 
 I wanted to construct a Dictionary of these classes like ```Dictionary<string, BaseClass>``` and ```Dictionary<string, DerivedClass>``` at two very different places. The construction of each dictionary element was not that trivial due to the inherent complexity of filling the properties for both the classes. Here is an example of how one of the dictionaries was being created:
 
-```csharp live
+```csharp
 // For the base class
 var map = new Dictionary<string, BaseClass>();
 foreach(var someProperty in someList)
@@ -57,9 +57,9 @@ foreach(var dependency in dependencyList)
 
 As you can see, there is a lot of logic repeating since the properties that were created for the base class were also created for the derived class, but when we create the DerivedClass object, new properties were also to be added to those object. Both the objects differ in how they are constructed but the way the map is created is similar. I wanted a way to reuse these for loops instead of writing them for both `BaseClass` and `DerivedClass` and other classes that might inherit from `BaseClass` later.
 
-My basic idea was to use a Template method like this. 
+My basic idea was to use a Template method like this.
 
-```csharp live
+```csharp
 public Dictionary<string, <T>> CreateDictionary(parameters)
 {
     while(someConditionOnParameters)
@@ -81,7 +81,7 @@ The other problem that I encounter here in was the arguments to this method. Whe
 
 That's when I was suggested the interesting solution to this problem, the one I am going to share now. We keep one function that creates this dictionary but rather than passing the parameters to create the objects, we pass a function that creates those objects for us. For example when we want to create the BaseClass dictionary, we can pass a function that creates the base class object and so on. This way this method can be extensible for any classes that derive from future as well. Here is a dummy code to show how that method might look like
 
-```csharp live
+```csharp
 public Dictionary<string, BaseClass> CreateDictionary(DataObject requiredData, Func<Data, BaseClass> objectCreator)
 {
     var map = new Dictionary<string, BaseClass>();
@@ -98,7 +98,7 @@ public Dictionary<string, BaseClass> CreateDictionary(DataObject requiredData, F
 
 Now when I want to create the base class dictionary, I can call it like:
 
-```csharp live
+```csharp
 var map = CreateDictionary(requiredData, x => 
 {
     return new BaseClass(x.somePropertyValue);
