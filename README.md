@@ -19,7 +19,3 @@ With minimal styling and maximum features — including multiple homepage layout
 Novela is built by the team at [Narative](https://www.narative.co), and built for everyone that loves the web.
 
 Do visit their repo to get started with how to build this app yourself.
-
-A hit counter on my blog link 😉
-
-![Page Visits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fmitesh1612.github.io%2Fblog)
