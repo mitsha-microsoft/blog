@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>http://mitesh1612.github.io/blog/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://mitesh1612.github.io/blog/blog/The-Naivete-of-Naive-Bayes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://mitesh1612.github.io/blog/blog/C-Properties-and-their-different-Uses</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://mitesh1612.github.io/blog/blog/Conditional-Probability-and-Families</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://mitesh1612.github.io/blog/blog/Constructing-a-complex-dictionary-of-base-and-derived-class-using-the-same-code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://mitesh1612.github.io/blog/blog/Welcome-to-this-blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://mitesh1612.github.io/blog/blog/authors/Mitesh-Shah</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
